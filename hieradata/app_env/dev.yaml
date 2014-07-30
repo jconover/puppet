@@ -1,0 +1,4 @@
+apache::vhost::port = 8080
+apache::vhost::docroot = '/var/www/www.justin.com'
+apache::vhost::ssl = false
+apache::vhost::serveraliases = 'home.pro-puppet.com'
